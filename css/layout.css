@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr 140px;
+    grid-template-areas:
+        "hed hed hed"
+        "menu feed msg";
+}
+
+header{
+    grid-area: hed;
+    background-color: rgb(92, 92, 185)
+}
+
+aside{
+
+    background-color: #f9f9f9;
+}
+
+.menu{
+    grid-area: menu;    
+}
+
+main{
+    grid-area: feed;
+    padding: 40px;
+}
+
+.messenger{
+    grid-area: msg; 
+
+}
