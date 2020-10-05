@@ -6,12 +6,12 @@ body{
         "menu feed msg";
 }
 
-header{
+body > header{
     grid-area: hed;
     background-color: rgb(92, 92, 185)
 }
 
-aside{
+body > aside{
 
     background-color: #f9f9f9;
 }

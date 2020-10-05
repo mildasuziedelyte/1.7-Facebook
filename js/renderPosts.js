@@ -11,7 +11,7 @@ function renderPosts(data) {
         HTML += renderSinglePost(post);
     }
 
-    console.log(HTML);
+    // console.log(HTML);
 
     //susirandame elementa, kuriame norime perrasyti turini
     const feedDOM = document.querySelector('main');
