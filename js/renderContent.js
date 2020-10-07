@@ -13,7 +13,7 @@ function renderContent(data) {
     }
     let textHTML='';
     if (data.text) {
-        textHTML = renderContentText(data.text);
+        textHTML = renderContentText(data.text, data.background);
     }
     // console.log(data);
     return `<div class='content'>
